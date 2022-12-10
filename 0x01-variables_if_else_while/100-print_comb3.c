@@ -14,7 +14,7 @@ int main(void)
 
 	for (doubles = 0; doubles <= 9; doubles++)
 	{
-		for (singles = 0; singles <= '9'; singles++)
+		for (singles = 0; singles <= 9; singles++)
 		{
 			if (!((doubles > singles) || (singles == doubles)))
 			{
