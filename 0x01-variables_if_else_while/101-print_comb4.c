@@ -18,7 +18,8 @@ int main(void)
 		{
 			for (singles = 0; singles < 10; singles++)
 			{
-				if (!((triples > doubles > singles) || (triples == doubles == singles)))
+				if (!(((triples > doubles) || (doubles > singles)) ||
+							((triples == doubles) || (doubles == singles))))
 				{
 					putchar(triples + '0');
 					putchar(doubles + '0');
