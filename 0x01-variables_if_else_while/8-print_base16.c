@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 1
+ * Return: Always 0
  */
 
 int main(void)
@@ -12,11 +12,17 @@ int main(void)
 	char c;
 	int d;
 
-	for (d = 0; d < 10; d++)
+	c = 'a';
+	while (d < 10)
+	{
 		putchar(d + '0');
-	for (c = 'a'; c <= 'f'; c++)
+		d++;
+	}
+	while (c <= 'f')
+	{
 		putchar(c);
-		putchar('\n');
-
-	return (1);
+		c++;
+	}
+	putchar('\n');
+	return (0);
 }
