@@ -3,7 +3,6 @@
  * rev_string - reverses a string
  * _putchar - print each character
  * @s: char to check
- *
  * 
  * Return: 0 is success
  */
